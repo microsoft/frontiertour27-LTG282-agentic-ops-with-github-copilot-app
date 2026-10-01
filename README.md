@@ -37,7 +37,7 @@ Fill in the sections below yourself, then:
 
 ### Session description
 
-Add your session description here. Keep it concise — 2-3 sentences about what attendees will learn and why it matters.
+It's 3AM, prod is down, and the fix isn't a pull request. See the GitHub Copilot App use Azure, Arc & Log Analytics MCP servers to hunt config drift and repair your cloud and hybrid estate live—then automate the guardrail so it never happens again.
 
 ### 🚀 Getting started
 
@@ -45,33 +45,32 @@ Add your session description here. Keep it concise — 2-3 sentences about what 
 
 If you're following along during a live session:
 
-1. Step 1
-2. Step 2
-3. Open [`instructions/`](instructions/README.md) when this session includes
-   attendee step-by-step guidance
+1. Watch the live demo as the GitHub Copilot App investigates and repairs the incident
+2. Open the [session docs](docs/index.md) to follow along with the scenario and resources
 
 #### On your own
 
 If you're learning at your own pace:
 
 1. Clone this repository
-2. Set up your environment
-3. Follow the session guidance in [`instructions/`](instructions/README.md), or
-   use the linked docs-site entry point when this repository uses that pattern
+2. Follow the session guidance in the [session docs](docs/index.md)
+3. Explore the sample code in [`src/`](src/README.md) and infrastructure in [`infra/`](infra/README.md)
 
 ### 🎯 Learning outcomes
 
 By the end of this session, you will be able to:
 
-- Outcome 1
-- Outcome 2
-- Outcome 3
+- Use the GitHub Copilot App with Azure, Azure Arc, and Log Analytics MCP servers to investigate a live production incident across cloud and hybrid resources.
+- Detect configuration drift and apply a targeted repair to your Azure and Arc-enabled estate directly from an agentic session.
+- Turn the fix into an automated guardrail so the same drift is caught and prevented going forward.
 
 ### 💻 Technologies used
 
-- Technology 1
-- Technology 2
-- Technology 3
+- GitHub Copilot App
+- Azure MCP Server
+- Azure Arc
+- Azure Monitor Log Analytics
+- Model Context Protocol (MCP)
 
 ### 📚 Continue your learning
 
@@ -102,17 +101,12 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
 
 ### 👥 Content owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="http://github.com/RicksterCDN">
+        <img src="https://github.com/RicksterCDN.png" width="100px;" alt="Rick Claus"/><br />
+        <sub><b>Rick Claus</b></sub></a><br />
+            <a href="https://github.com/RicksterCDN" title="talk">📢</a>
     </td>
 </tr></table>
 

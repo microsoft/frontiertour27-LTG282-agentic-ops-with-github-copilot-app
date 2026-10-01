@@ -1,46 +1,49 @@
 # Delivery resources
 
-<!-- AI TOUR TEMPLATE PLACEHOLDER: replace the required deck link before publication. Optional recording links can remain unavailable. -->
-
-Presenter, re-delivery, and train-the-trainer materials for this session.
+Presenter, re-delivery, and train-the-trainer materials for LTG282: Agentic Ops with GitHub Copilot App.
 
 ## Core materials
 
 | Item | Link | Notes |
 |---|---|---|
-| Delivery deck |  | Required URL |
-| Session recording |  | Optional URL when available |
+| Delivery deck | [LTG282 slides](https://aka.ms/aitour27/LTG282/slides/en) | Public deck |
+| Session recording |  | Not yet available |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
-| Workshop/lab instructions | [Instructions](../instructions/README.md) | Remove this row when not applicable |
+| Session docs | [Session docs](../docs/index.md) | Attendee guidance entry point |
 
 ## Delivery checklist
 
 - Review the session README
-- Review the attendee instructions
+- Review the session docs
 - Open the deck
 - Review the presenter guidance below
 - Review live demo reproducibility guidance
-- Validate any required environment or setup
+- Validate the GitHub Copilot App and MCP server setup before going on stage
 
 ## Session preparation
 
 - Review the attendee entry point from the root README.
 - Review the delivery deck.
-- Validate the required environment and setup.
+- Confirm the GitHub Copilot App is signed in and the Azure, Azure Arc, and Log Analytics MCP servers are connected.
+- Confirm access to the Azure subscription, Arc-enabled resources, and Log Analytics workspace used in the demo.
 
 ## Run of show
 
-Add timing, transitions, and delivery notes.
+<!-- TODO: Add timing, transitions, and delivery notes for the lightning talk. -->
 
 ## Demo reproducibility
 
-If the session includes live demos, link to or include the steps, code, setup,
-and notes required to reproduce them.
+This session includes a live demo: the GitHub Copilot App uses the Azure, Azure Arc,
+and Log Analytics MCP servers to find configuration drift, repair the affected
+cloud and hybrid resources, and automate a guardrail to prevent recurrence.
+
+<!-- TODO: Add the demo steps, environment details, and links to the code in ../src/ and infrastructure in ../infra/. -->
 
 ## Setup notes
 
-Use this section for short setup reminders. Link to detailed setup notes if needed.
+- Sample code: [`src/`](../src/README.md)
+- Infrastructure: [`infra/`](../infra/README.md)
 
 ## Support
 
-Content owner or contact:
+Content owner or contact: Rick Claus ([@RicksterCDN](https://github.com/RicksterCDN))
