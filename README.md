@@ -45,31 +45,39 @@ It's 3AM, prod is down, and the fix isn't a pull request. See the GitHub Copilot
 
 If you're following along during a live session:
 
-1. Watch the live demo as the GitHub Copilot App investigates and repairs the incident
+1. Follow one 3AM incident through five moves from a single canvas:
+   - **Find** — a Kusto query through the Log Analytics MCP server pinpoints the failure spike
+   - **Diagnose** — live config and the Activity Log through Azure MCP reveal the drift
+   - **Fix live** — approve on the canvas and the agent restores the network rule in Azure
+   - **Hybrid** — remediate an on-premises server through Azure Arc from the same canvas
+   - **Prevent** — schedule a guardrail with Automations and Azure Monitor that self-heals on drift
 2. Open the [session docs](docs/README.md) to follow along with the scenario and resources
 
 #### On your own
 
 If you're learning at your own pace:
 
-1. Clone this repository
-2. Follow the session guidance in the [session docs](docs/README.md)
-3. Explore the sample code in [`src/`](src/README.md) and infrastructure in [`infra/`](infra/README.md)
+1. Get the GitHub Copilot App at [gh.io/app](https://gh.io/app)
+2. Connect the Azure MCP, Azure Arc, and Azure Monitor MCP servers to the app
+3. Follow the session guidance in the [session docs](docs/README.md)
+4. Explore the sample code in [`src/`](src/README.md) and infrastructure in [`infra/`](infra/README.md)
 
 ### 🎯 Learning outcomes
 
 By the end of this session, you will be able to:
 
-- Use the GitHub Copilot App with Azure, Azure Arc, and Log Analytics MCP servers to investigate a live production incident across cloud and hybrid resources.
-- Detect configuration drift and apply a targeted repair to your Azure and Arc-enabled estate directly from an agentic session.
-- Turn the fix into an automated guardrail so the same drift is caught and prevented going forward.
+- Use the GitHub Copilot App as a Day-2 operations control center to find, diagnose, fix, and prevent infrastructure problems from one canvas.
+- Explain how the app acts on live cloud and hybrid Azure infrastructure through the Azure, Azure Arc, and Log Analytics MCP servers to remediate real config drift, rather than only proposing code.
+- Keep agentic remediation governed — human-approved and scoped to infrastructure — so the system of record's business decisions, writes, and approvals stay untouched.
 
 ### 💻 Technologies used
 
 - GitHub Copilot App
 - Azure MCP Server
 - Azure Arc
+- Azure Monitor
 - Azure Monitor Log Analytics
+- Kusto Query Language (KQL)
 - Model Context Protocol (MCP)
 
 ### 📚 Continue your learning
