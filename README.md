@@ -46,14 +46,14 @@ It's 3AM, prod is down, and the fix isn't a pull request. See the GitHub Copilot
 If you're following along during a live session:
 
 1. Watch the live demo as the GitHub Copilot App investigates and repairs the incident
-2. Open the [session docs](docs/index.md) to follow along with the scenario and resources
+2. Open the [session docs](docs/README.md) to follow along with the scenario and resources
 
 #### On your own
 
 If you're learning at your own pace:
 
 1. Clone this repository
-2. Follow the session guidance in the [session docs](docs/index.md)
+2. Follow the session guidance in the [session docs](docs/README.md)
 3. Explore the sample code in [`src/`](src/README.md) and infrastructure in [`infra/`](infra/README.md)
 
 ### 🎯 Learning outcomes

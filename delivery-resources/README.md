@@ -9,7 +9,7 @@ Presenter, re-delivery, and train-the-trainer materials for LTG282: Agentic Ops 
 | Delivery deck | [LTG282 slides](https://aka.ms/aitour27/LTG282/slides/en) | Public deck |
 | Session recording |  | Not yet available |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
-| Session docs | [Session docs](../docs/index.md) | Attendee guidance entry point |
+| Session docs | [Session docs](../docs/README.md) | Attendee guidance entry point |
 
 ## Delivery checklist
 
