@@ -51,7 +51,6 @@ If you're following along during a live session:
    - **Fix live** — approve on the canvas and the agent restores the network rule in Azure
    - **Hybrid** — remediate an on-premises server through Azure Arc from the same canvas
    - **Prevent** — schedule a guardrail with Automations and Azure Monitor that self-heals on drift
-2. Open the [session docs](docs/README.md) to follow along with the scenario and resources
 
 #### On your own
 
@@ -59,8 +58,7 @@ If you're learning at your own pace:
 
 1. Get the GitHub Copilot App at [gh.io/app](https://gh.io/app)
 2. Connect the Azure MCP, Azure Arc, and Azure Monitor MCP servers to the app
-3. Follow the session guidance in the [session docs](docs/README.md)
-4. Explore the sample code in [`src/`](src/README.md) and infrastructure in [`infra/`](infra/README.md)
+3. Explore the sample code in [`src/`](src/README.md) and infrastructure in [`infra/`](infra/README.md)
 
 ### 🎯 Learning outcomes
 

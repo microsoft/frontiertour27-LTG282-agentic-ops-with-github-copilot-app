@@ -10,12 +10,11 @@ Presenter, re-delivery, and train-the-trainer materials for LTG282: Agentic Ops 
 | Speaker talk track | [LTG282 speaker talk track](LTG282-Speaker-Talk-Track.md) | 13-minute presentation script and recorded-demo cues |
 | Session recording |  | Not yet available |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
-| Session docs | [Session docs](../docs/README.md) | Attendee guidance entry point |
 
 ## Delivery checklist
 
 - Review the session README
-- Review the session docs
+- Review the speaker talk track
 - Open the deck
 - Review the presenter guidance below
 - Review live demo reproducibility guidance
