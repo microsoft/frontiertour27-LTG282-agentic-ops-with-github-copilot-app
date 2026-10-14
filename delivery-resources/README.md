@@ -13,8 +13,8 @@ Presenter, re-delivery, and train-the-trainer materials for LTG282: Agentic Ops 
 
 ## Delivery checklist
 
-- Review the session README
-- Review the speaker talk track
+- Review the [top-level session README](../README.md)
+- Review the [LTG282 speaker talk track](LTG282-Speaker-Talk-Track.md)
 - Open the deck
 - Review the presenter guidance below
 
@@ -47,11 +47,6 @@ The talk runs 13 minutes. See the [speaker talk track](LTG282-Speaker-Talk-Track
 ## Demo reproducibility
 
 The talk track uses six recorded demo videos; it does not require live Azure operations or issue submissions during the presentation. See the [speaker talk track](LTG282-Speaker-Talk-Track.md) for the recorded scenario, on-screen cues, and narration. The recording describes the demo flow but does not include reproducible environment setup steps.
-
-## Setup notes
-
-- Sample code: [`src/`](../src/README.md)
-- Infrastructure: [`infra/`](../infra/README.md)
 
 ## Support
 
