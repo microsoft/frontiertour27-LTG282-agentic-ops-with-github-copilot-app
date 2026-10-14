@@ -17,15 +17,12 @@ Presenter, re-delivery, and train-the-trainer materials for LTG282: Agentic Ops 
 - Review the speaker talk track
 - Open the deck
 - Review the presenter guidance below
-- Review live demo reproducibility guidance
-- Validate the GitHub Copilot App and MCP server setup before going on stage
 
 ## Session preparation
 
 - Review the attendee entry point from the root README.
 - Review the delivery deck.
-- Confirm the GitHub Copilot App is signed in and the Azure, Azure Arc, and Log Analytics MCP servers are connected.
-- Confirm access to the Azure subscription, Arc-enabled resources, and Log Analytics workspace used in the demo.
+- Review the [LTG282 speaker talk track](LTG282-Speaker-Talk-Track.md) and have all six recorded demo videos in [`demo-videos/`](demo-videos/) ready to play on your machine.
 
 ## Presenter notes
 
