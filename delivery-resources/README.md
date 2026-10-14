@@ -23,6 +23,18 @@ Presenter, re-delivery, and train-the-trainer materials for LTG282: Agentic Ops 
 - Review the attendee entry point from the root README.
 - Review the delivery deck.
 - Review the [LTG282 speaker talk track](LTG282-Speaker-Talk-Track.md) and have all six recorded demo videos in [`demo-videos/`](demo-videos/) ready to play on your machine.
+- Use a dedicated video player such as [VLC media player](https://www.videolan.org/vlc/) instead of embedding the videos in PowerPoint. If using VLC, these settings support controlled playback:
+  - **Interface** — Tools / Preferences:
+    - **Look and Feel:** turn off “Show Controls in Full Screen Mode.”
+    - **Playlist and Instances:** turn on “Pause on the last frame of a video.”
+  - **Audio:** turn off “Enable Audio.”
+  - **Video** — Display:
+    - Turn on “Full Screen.”
+    - Turn off “Window Decorations.”
+  - **Subtitles/OSD** — On Screen Display:
+    - Turn off “Enable On Screen Display” for a zero-interface view.
+    - Turn off “Show Media Title on Video Start.”
+    - Turn off “Enable Subtitles.”
 
 ## Presenter notes
 
